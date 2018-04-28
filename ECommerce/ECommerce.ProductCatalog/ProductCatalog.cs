@@ -32,6 +32,11 @@ namespace ECommerce.ProductCatalog
             return await productRepository.GetAllProducts();
         }
 
+        public async Task<Product> GetProduct(Guid productId)
+        {
+            return await productRepository.GetProduct(productId);
+        }
+
         protected override IEnumerable<ServiceReplicaListener> CreateServiceReplicaListeners()
         {
             return new[]

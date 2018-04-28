@@ -32,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ECommerce.CheckoutService.Model\ECommerce.CheckoutService.Model.csproj" />
     <ProjectReference Include="..\ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj" />
     <ProjectReference Include="..\ECommerce.UserActor.Interfaces\ECommerce.UserActor.Interfaces.csproj" />
   </ItemGroup>

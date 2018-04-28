@@ -12,5 +12,7 @@ namespace ECommerce.ProductCatalog.Repository
         Task<IEnumerable<Product>> GetAllProducts();
 
         Task AddProduct(Product product);
+
+        Task<Product> GetProduct(Guid productId);
     }
 }

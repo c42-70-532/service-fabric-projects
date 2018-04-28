@@ -9,11 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{CFDDEE44-9B23-43A8-9DCB-AA5ED9C41ECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{CBA1B98F-7E4B-40E5-BF6F-44A3230DA429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{CBA1B98F-7E4B-40E5-BF6F-44A3230DA429}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.UserActor", "ECommerce.UserActor\ECommerce.UserActor.csproj", "{823EEF5D-9445-4BED-BC61-35E5D77D9AA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.UserActor.Interfaces", "ECommerce.UserActor.Interfaces\ECommerce.UserActor.Interfaces.csproj", "{29EB059F-9FFF-4BDB-B718-F0D37EA3B11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService", "ECommerce.CheckoutService\ECommerce.CheckoutService.csproj", "{101602B1-8D12-4AC1-AA36-DEFCD4E96154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.CheckoutService.Model", "ECommerce.CheckoutService.Model\ECommerce.CheckoutService.Model.csproj", "{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,20 @@ Global
 		{29EB059F-9FFF-4BDB-B718-F0D37EA3B11B}.Release|Any CPU.ActiveCfg = Release|x64
 		{29EB059F-9FFF-4BDB-B718-F0D37EA3B11B}.Release|x64.ActiveCfg = Release|x64
 		{29EB059F-9FFF-4BDB-B718-F0D37EA3B11B}.Release|x64.Build.0 = Release|x64
+		{101602B1-8D12-4AC1-AA36-DEFCD4E96154}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{101602B1-8D12-4AC1-AA36-DEFCD4E96154}.Debug|x64.ActiveCfg = Debug|x64
+		{101602B1-8D12-4AC1-AA36-DEFCD4E96154}.Debug|x64.Build.0 = Debug|x64
+		{101602B1-8D12-4AC1-AA36-DEFCD4E96154}.Release|Any CPU.ActiveCfg = Release|x64
+		{101602B1-8D12-4AC1-AA36-DEFCD4E96154}.Release|x64.ActiveCfg = Release|x64
+		{101602B1-8D12-4AC1-AA36-DEFCD4E96154}.Release|x64.Build.0 = Release|x64
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Debug|x64.Build.0 = Debug|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Release|x64.ActiveCfg = Release|Any CPU
+		{AE344225-4B19-45F4-9A98-C7C7FC9C7FDB}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
